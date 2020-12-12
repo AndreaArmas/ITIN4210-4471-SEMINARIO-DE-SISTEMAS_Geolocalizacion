@@ -16,8 +16,6 @@ Dependecias: google maps(https://pub.dev/packages/google_maps_flutter), geolocat
 
 Documentación para obtener la clave de API: https://developers.google.com/maps/documentation/android-sdk/get-api-key
 
-Se recomienda añadir estos dos permisos en el manifest para evitar errores:  
-<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> 
-<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+Se recomienda añadir estos dos permisos en el manifest para evitar errores: (<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> y <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />)
 
 Documentación de Flutter: https://flutter.dev/docs
